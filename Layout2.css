@@ -1,0 +1,264 @@
+body {
+    box-sizing: border-box;
+    margin: auto 0;
+    padding: 0;
+}
+
+.zone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    transition: all 0.3s linear;
+}
+
+.zones {
+    cursor: pointer;
+    color: #fff;
+    font-size: 2em;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    transition: all 0.3s linear;
+}
+
+.zone:hover{
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.box:hover{
+    -webkit-transform:rotate(-5deg);
+    -moz-transform:rotate(-5deg);
+    -o-transform:rotate(-5deg);
+    transform:rotate(-5deg);
+}
+
+.navbar-collapse {
+    margin-right: auto;
+}
+
+.containerr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerrr > p {
+    display: inline-block;
+}
+
+.containerrr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(Woodify2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}  
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center > p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:790px) {
+    .center > p {
+        padding-left: 60px;
+    }
+}
+
+.cover-img  {
+    height: 80vh;
+    width: 100%;
+    
+}
+
+
+.section-border {
+    border: 1px solid #fff;
+    padding:60px 0;
+    font-family: Fira Sans,Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    line-height: 1.81;
+    color: #555;
+    text-align: center;
+    justify-content: center;
+}
+
+.container{
+    margin: auto;
+    display: flex;
+}
+
+.column1 {
+    flex: 1;
+}
+
+.column2{
+    flex: 1;
+}
+
+@media only screen and (max-width:720px) {
+
+    .container{
+        flex-direction:column;
+    }
+}
+   
+.Grid-wrapper {
+    display: grid;
+    gap: 20px;
+    grid-template-columns:repeat(auto-fill, minmax(350px, 1fr)) ;
+    grid-template-rows: 1fr;
+} 
+
+h3 {
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    font-family: Fira Sans,Helvetica,Arial,sans-serif;
+}
+
+.box > img{
+    width: 100%;
+}
+
+.box {
+    background-color: #444;
+    padding: 20px;
+    margin: 20px;
+}
+
+footer{
+    text-align: center;
+    font-size: 50px;
+    color: #444;
+}
+
+.header-center{
+    color: #444;
+    padding-top: 15px;
+}
+
+hr {
+    color: blue;
+    width:  8.33%;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.zoness {
+    cursor: pointer;
+    color: #fff;
+    font-size: 3em;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    transition: all 0.3s linear;
+    font-weight: 500;
+}
+
+
+.form-group{
+    display: block;
+    font-size: 18px;
+    line-height: 1.42857;
+    color: #555;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+    width: 50%;
+}
+
+
+
+.form-submit {
+    font-size: 1.4rem;
+    padding: 9px 25px;
+    color: rgb(248, 233, 233) ;
+    background-color: #444;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+textarea {
+    padding: 100px 100px;
+}
+
+textarea.form-control {
+    height: auto;
+    border: 1px solid #ddd;
+    resize: auto;
+}
+
+.form-control {
+    font-family: Fira Sans,Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    width: 100%;
+    height: 30px;
+    padding: 12px 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    border-radius: 2px;
+}
+
+.cream{
+    background: #fff;
+}
+    
+.yellow{
+    background: #F3AAAA; /* Old browsers */
+    background: -moz-linear-gradient(top, #F3AAAA 0%, #febf04 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F3AAAA), color-stop(100%,#febf04)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* IE10+ */
+    background: linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* W3C */
+}
+
+.red{
+    background: #C655BE; /* Old browsers */
+    background: -moz-linear-gradient(top, #C655BE 0%, #cf0404 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#C655BE), color-stop(100%,#cf0404)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* IE10+ */
+    background: linear-gradient(top, #C655BE 0%,#cf0404 100%); /* W3C */
+}
+
+.purple {
+    background: #A88BEB; /* Old browsers */
+    background: -moz-linear-gradient(top, #A88BEB 0%, #F1A7F1 44%, #F8CEEC 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#A88BEB), color-stop(44%,#F1A7F1), color-stop(100%,#F8CEEC)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #A88BEB 0%,#F1A7F1 44%,#F8CEEC 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #A88BEB 0%,#F1A7F1 44%,#F8CEEC 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #A88BEB 0%,#F1A7F1 44%,#F8CEEC 100%); /* IE10+ */
+    background: linear-gradient(top, #A88BEB 0%,#F1A7F1 44%,#F8CEEC 100%); /* W3C */
+}
+
+.green{
+    background: #56B870; /* Old browsers */
+    background: -moz-linear-gradient(top, #56B870 0%, #a5c956 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#56B870), color-stop(100%,#a5c956)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #56B870 0%,#a5c956 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #56B870 0%,#a5c956 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #56B870 0%,#a5c956 100%); /* IE10+ */
+    background: linear-gradient(top, #56B870 0%,#a5c956 100%); /* W3C */
+}
